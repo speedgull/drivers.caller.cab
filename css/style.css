@@ -45,12 +45,18 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: Montserrat, Arial, sans-serif;
+  color: var(--main-color);
 }
 
 
-h2, h3, h4, h5, h6, p, li {
+h2, h3, h4, h5, h6, p, ul {
   margin-bottom: 0.5em;
   line-height: 1.5;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: circle;
 }
 
 .nowrap {
@@ -62,7 +68,7 @@ h2, h3, h4, h5, h6, p, li {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -143,18 +149,36 @@ nav li {
 
 .hero .cta {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  bottom: 30%;
   font-size: clamp(0.7rem, 2.5vw, 30px);
-  left: 5vw;
+  left: 10vw;
   color: #fff;
   height: max-content;
-  margin: auto;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.5);
   outline: 0.1em solid;
   outline-offset: -0.2em;
 }
+
+.burst p {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  background: url('../images/sale-star.svg') no-repeat center;
+  padding: 1em;
+  margin: -1em;
+  line-height: 1;
+  font-family: montserrat, arial, sans-serif;
+}
+
+.hero .burst {
+  position: absolute;
+  top: 20%;
+  right: 10vw;
+  font-size: clamp(1rem, 2.5vw, 40px);
+}
+
 
 @keyframes grow {
   0% {
@@ -178,6 +202,11 @@ nav li {
   "sidebar content"
   "below below";
   gap: var(--content-gap);
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 150px;
 }
 
 #primary {
@@ -220,7 +249,7 @@ ul.checklist {
   background-size: 0.8em;
   background-repeat: no-repeat;
   background-position: 0 50%;
-  line-height: 1.2;
+  margin-bottom: 0.5em;
   flex: 200px;
 }
 
@@ -298,6 +327,14 @@ footer {
 
 .social {
   display: inline-flex;
-  height: 1.5rem;
   gap: 1rem;
+  align-items: center;
+}
+
+.social img {
+  height: 1.5rem;
+}
+
+.social img[src$="hbc-logo.svg"] {
+  height:2rem;
 }

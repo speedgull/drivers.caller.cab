@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 260.28 260.12"
+   version="1.1"
+   sodipodi:docname="sale-star.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="4.2711057"
+     inkscape:cx="120.57768"
+     inkscape:cy="130.29413"
+     inkscape:window-width="3440"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#ff1128;}</style>
+  </defs>
+  <title
+     id="title6">SaleStar</title>
+  <polygon
+     class="cls-1"
+     points="130.14 12.71 139.22 0 146.45 13.85 157.21 2.53 162.44 17.25 174.68 7.54 177.81 22.84 191.28 14.93 192.25 30.51 206.68 24.55 205.47 40.12 220.6 36.23 217.24 51.48 232.75 49.73 227.3 64.37 242.91 64.79 235.48 78.53 250.88 81.12 241.6 93.69 256.49 98.4 245.56 109.55 259.65 116.29 247.27 125.81 260.28 134.45 246.7 142.15 258.38 152.51 243.86 158.25 253.99 170.14 238.8 173.81 247.18 186.99 231.64 188.5 238.1 202.72 222.49 202.06 226.91 217.04 211.55 214.21 213.84 229.66 199.03 224.72 199.15 240.34 185.16 233.38 183.1 248.86 170.22 240.03 166.03 255.08 154.51 244.54 148.26 258.86 138.31 246.81 130.14 260.12 121.97 246.81 112.02 258.86 105.77 244.54 94.25 255.08 90.06 240.03 77.17 248.86 75.12 233.38 61.13 240.34 61.25 224.72 46.44 229.66 48.73 214.21 33.37 217.04 37.79 202.06 22.18 202.72 28.64 188.5 13.1 186.99 21.48 173.81 6.29 170.14 16.42 158.25 1.9 152.51 13.59 142.15 0 134.45 13.01 125.81 0.63 116.29 14.72 109.55 3.79 98.4 18.68 93.69 9.4 81.12 24.8 78.53 17.37 64.79 32.98 64.37 27.53 49.73 43.05 51.48 39.68 36.23 54.81 40.12 53.6 24.55 68.03 30.51 69.01 14.93 82.47 22.84 85.6 7.54 97.84 17.25 103.07 2.53 113.83 13.85 121.06 0 130.14 12.71"
+     id="polygon8"
+     style="fill:#df0008;fill-opacity:1" />
+</svg>
