@@ -69,10 +69,46 @@ ul {
   text-align: center;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.text-bigger {
+  font-size: larger;
+}
+
+.text-smaller {
+  font-size: smaller;
+}
+
 .wrapper {
   max-width: 1400px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.margin-h1 {
+  margin: 1rem 0;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  background: linear-gradient(hsl(0deg 100% 54%), hsl(0 100% 34% / 1));
+  color: white;
+  text-decoration: none;
+  padding: 0.3em 1em;
+  font-weight: bold;
+  max-width: 120px;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 75%);
+  border: 1px solid;
+  transition: all 0.5s;
 }
 
 /* Icon Styles */
@@ -206,6 +242,7 @@ nav li {
 }
 
 #secondary {
+  max-width: 500px;
   grid-area: sidebar;
 }
 
@@ -216,6 +253,7 @@ nav li {
   "sidebar content"
   "below below";
   gap: var(--content-gap);
+  justify-items: center;
 }
 
 .sticky-sidebar {
@@ -333,7 +371,7 @@ ul.checklist {
   max-width: 100px;
 }
 
-.partners figure:hover {
+.partners figure:hover, .button:hover {
   box-shadow: none;
   cursor: pointer;
 }
